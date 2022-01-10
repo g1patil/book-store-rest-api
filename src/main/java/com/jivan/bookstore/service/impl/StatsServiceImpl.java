@@ -16,12 +16,8 @@ import java.util.List;
 @Service
 public class StatsServiceImpl implements StatsService {
 
-    @Autowired
-    StatsRepository statsRepository;
-
-
     @Override
     public List<OrderView> getMonthStats(Date fromDate, Date toDate) {
-        return statsRepository.getMonthlyStats(fromDate,toDate);
+        return null;
     }
 }

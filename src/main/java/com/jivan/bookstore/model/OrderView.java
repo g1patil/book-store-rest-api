@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 /**
  * @author g1patil
  */
-@Entity
+//@Entity
 public class OrderView {
     String createdMonth;
     int count;
